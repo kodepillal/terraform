@@ -4,12 +4,12 @@ terraform {
       source  = "hashicorp/aws"
       version = "~>5.8.0"
     }
-    
+
   }
 }
 
 # Configure the AWS Provider
 provider "aws" {
   region = "us-east-1"
- 
+
 }

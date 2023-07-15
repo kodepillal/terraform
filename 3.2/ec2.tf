@@ -3,12 +3,12 @@ resource "aws_instance" "my-instance" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name        = "HelloWorld"
     environment = "development"
   }
   root_block_device {
     delete_on_termination = true
-    volume_size = 50
-    volume_type = "gp2"
+    volume_size           = 50
+    volume_type           = "gp2"
   }
 }
