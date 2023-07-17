@@ -1,0 +1,6 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "kodepillal"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAARDFGACAQDc7DjIH8lWB5pVFWQdKn9dEKsVNHsQgqpRJWiAJ63VL+l6Bny7EtBkqwEvhgzNkINp8jz5WY9p5hybBF/ff4PrBjVK3L+5NCxug65fDy4xTl47zR5EkEboTTWETCNdDrsjw5+gdgKNlYq1iQbGnR1VunG1e2T+8c4iFggr0SsrnSyPzKK/ciUsUJu1MJ9Iv86VERJUcSZprPYPDWSZYcE1IhxvUYBNjhbDMXwjYUUOlNTFU+YQuXg99IO8SoAj1Q3aaQ71PWzt1/zsSaWGBHM0Ec+lKUaVObHSPdfdZuvSfDUtZE0xu9DJc55Rn8/0QvIwbJQ/6ukBQZy7LMuViz1HUjNm0bvm+TxyOtLhRvNoduOnqeYIQFWgCBaR5fqeT9VA2KrElTxL7UcePAQhCdfdfdinaI8R6812Ueqqa3gfawcTBFSiqfs1jLsnCi6fVgoIau05rO+bszIZtkcM2RlfCxiQj1kq70jGAI4wNs5XZmwa6FMtCgIQwvhbPM74Esm+Khlf3tGGyHrDUqGjkAJGzR/S17Q7h0ALqVh1n4T/T/hEP3lde2LIX84nyTP7loisdkRllP/7YN4kUWDtnDgMbdcgJVUP5s5YyrGDTnVinPcFKZdP9SoTcT8gA/gya493ZnvWM0qhlE2pVsT+zoLV05GYRDTs5Z8N9zbvc65rz5pUbyLhYL6jw== naresh@kodepillal.local"
+}
+
+# ssh-keygen -P "" -t rsa -b 4096 -m pem -f kodepillal.pem
